@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import Menu, {MenuItem, MenuDivider} from 'react-native-material-menu';
 import {Actions} from 'react-native-router-flux';
-import {LoginManager, AccessToken} from 'react-native-fbsdk';
+import {LoginManager} from 'react-native-fbsdk';
 
 export default class MyMenu extends React.PureComponent {
   _menu = null;
